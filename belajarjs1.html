@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Latihan Javascript 1</title>
+</head>
+<body>
+  <h2>My First Javascript</h2>
+  <input type="text" name="1" id="1"><br>
+  <input type="text" name="2" id="2"><br>
+  <button type="button" name="hasil" onclick="klik()">Klik saya</button>
+  <p id="demo"></p>
+  <script>
+  function klik(){
+
+  var a = parseInt(document.getElementById('1').value);
+  var b = parseInt(document.getElementById('2').value)  ;
+  window.alert(a+b);
+  /*document.getElementById('demo').innerHTML = a+b;
+  */
+  }
+  </script>
+</body>
+</html>
